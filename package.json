@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "mongoose": "^8.15.0",
+    "qrcode": "^1.5.4",
+    "react-qr-code": "^2.0.15"
+  }
+}
