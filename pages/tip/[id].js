@@ -237,3 +237,9 @@ export default function TipPage() {
     </>
   );
 }
+
+export async function getServerSideProps(ctx) {
+  // We don’t need to fetch data here—everything is done client-side with SWR—
+  // but this hook tells Next.js “serve on every request” instead of 404.
+  return { props: {} };
+}
